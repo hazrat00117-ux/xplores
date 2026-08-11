@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --space-bg: #02040a;
+    --accent-gold: #d4af37;
+    --glass: rgba(255, 255, 255, 0.08);
+    --glass-border: rgba(255, 255, 255, 0.15);
+  }
+
+  body {
+    background-color: var(--space-bg);
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    overflow: hidden;
+  }
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+
+.glass-pill-active {
+  background: rgba(212, 175, 55, 0.12);
+  border-color: #d4af37;
+  color: #ffffff;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.25);
+}
+
+.gold-glow {
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+.gold-text {
+  color: #d4af37;
+}
+
+/* Custom scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

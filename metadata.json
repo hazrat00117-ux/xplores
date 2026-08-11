@@ -1,0 +1,6 @@
+{
+  "name": "DIKITA X'PLORES - 3D Birthday Journey",
+  "description": "An interactive 3D globe experience with 7 continents, 70 iconic landmarks, procedural 3D visual environments, cinematic flights, audio, easter eggs, and personalized birthday surprises.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
